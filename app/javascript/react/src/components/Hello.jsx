@@ -1,8 +1,11 @@
 import * as React from 'react'                          
-import * as ReactDOM from 'react-dom'   
+import * as ReactDOM from 'react-dom'  
                                                         
 const Hello = () => {                                   
-    return (<div>Hello</div>)                  
+    return (
+    <div>
+        <img src="../images/dress.jpg" />
+    </div>)                  
   }  
 
                                                      
