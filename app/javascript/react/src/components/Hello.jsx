@@ -3,8 +3,10 @@ import * as ReactDOM from 'react-dom'
                                                         
 const Hello = () => {                                   
     return (
-    <div>
-        <img src="../images/dress.jpg" />
+    <div class="flex-col">
+        <img src="../images/dress.jpg" width='400' height='500' />
+        <img src="../images/skirt.jpg" width='400' height='500'/>
+        <img src="../images/skirt.jpg" width='400' height='500'/>
     </div>)                  
   }  
 
