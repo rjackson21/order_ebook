@@ -1,8 +1,8 @@
 import { define } from 'remount'      
-import Hello from "./components/Hello"
+import Images from "./components/Images"
 import Poop from "./components/Poop"
 import SalesPage from './components/SalesPage'
                                       
-define({ 'hello-component': Hello })                                    
+define({ 'images-component': Images })                                    
 define({ 'poop-component' : Poop }) 
 define({ 'sales-page'     : SalesPage })

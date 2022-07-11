@@ -1,7 +1,7 @@
 import * as React from 'react'                          
 import * as ReactDOM from 'react-dom'  
                                                         
-const Hello = () => {                                   
+const Images = () => {                                   
     return (
     <div class="flex-col">
         <img src="../images/dress.jpg" width='400' height='500' />
@@ -19,4 +19,4 @@ const Hello = () => {
   // ReactDOM.render(<Hello />, document.getElementById('hello'))                  
 // })                                                    
                                                         
-export default Hello
+export default Images

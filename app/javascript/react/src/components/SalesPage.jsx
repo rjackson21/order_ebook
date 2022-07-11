@@ -1,13 +1,14 @@
 
 import React from 'react'
 import Poop from "./Poop"
-import Hello from "./Hello"
+import Images from "./Images"
 
 export default function SalesPage() {
   return (
     <div>
+      <Images />
       <Poop />
-      <Hello />
+      
     </div>
   )
 }
