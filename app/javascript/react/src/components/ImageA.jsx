@@ -1,12 +1,12 @@
 import * as React from 'react'                          
 import * as ReactDOM from 'react-dom'  
                                                         
-const Images = () => {                                   
+const ImageA = () => {                                   
     return (
     <div>
-        <img src="../images/DSC04218.jpg" width='250' height='300' />
+        
         <img src="../images/DSC04360.jpg" width='250' height='300'/>
-        <img src="../images/DSC04408.jpg" width='250' height='300'/>
+        
     </div>)                  
   }  
 
@@ -19,4 +19,4 @@ const Images = () => {
   // ReactDOM.render(<Hello />, document.getElementById('hello'))                  
 // })                                                    
                                                         
-export default Images
+export default ImageA

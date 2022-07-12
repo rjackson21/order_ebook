@@ -1,8 +1,12 @@
-import { define } from 'remount'      
-import Images from "./components/Images"
+import { define } from 'remount'  
+import ImageA from "./components/ImageA"    
+import ImageB from "./components/ImageB"
+import ImageC from "./components/ImageC"
 import Ipad from "./components/Ipad"
 import SalesPage from './components/SalesPage'
                                       
-define({ 'images-component': Images })                                    
+define({ 'imagea-component': ImageA })      
+define({ 'imageb-component': ImageB })      
+define({ 'imagec-component': ImageC })                           
 define({ 'ipad-component' : Ipad }) 
 define({ 'sales-page'     : SalesPage })
