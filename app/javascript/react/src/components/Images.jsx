@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom'
                                                         
 const Images = () => {                                   
     return (
-    <div class="flex-col">
+    <div class="flex-col ml-4">
         <img src="../images/DSC04218.jpg" width='400' height='500' />
         <img src="../images/DSC04360.jpg" width='400' height='500'/>
         <img src="../images/DSC04408.jpg" width='400' height='500'/>

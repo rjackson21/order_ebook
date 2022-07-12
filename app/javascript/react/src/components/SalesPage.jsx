@@ -1,13 +1,13 @@
 
 import React from 'react'
-import Poop from "./Poop"
+import Ipad from "./Ipad"
 import Images from "./Images"
 
 export default function SalesPage() {
   return (
     <div>
       <Images />
-      <Poop />
+      <Ipad />
       
     </div>
   )
