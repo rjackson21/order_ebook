@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom'
 const Buy = () => {                                   
   return (
     <a href="https://react.school" target="_blank">
-      <button class="bg-black text-white p-4 shadow-lg rounded"> Buy Now </button>
+      <button class="bg-black text-white p-4 shadow-lg rounded w-full"> Buy Now </button>
     </a>
     )                   
 }                                        
