@@ -10,6 +10,10 @@ import Blurb from './Blurb'
 
 export default function SalesPage() {
   return (
+    <div class="flex flex-col">
+    <div class="flex w-full justify-center">
+      
+    </div>
     <div class="flex w-full">
       <div class="flex flex-col p-10 w-1/4">
         <div class="flex">
