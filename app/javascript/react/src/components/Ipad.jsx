@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom'
 const Ipad = () => {                                   
   return (
     <div>
-      <img src="../images/ipad.png" width='400' height='500'/>
+      <img src="../images/ipad.png" class="flex w-full"/>
     </div>)                   
 }                                        
 // Use it if you don't plan to use "remount"                

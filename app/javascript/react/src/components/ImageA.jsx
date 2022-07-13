@@ -3,10 +3,8 @@ import * as ReactDOM from 'react-dom'
                                                         
 const ImageA = () => {                                   
     return (
-    <div>
-        
-        <img src="../images/DSC04360.jpg" width='250' height='300'/>
-        
+    <div> 
+        <img src="../images/DSC04360.jpg" width='250' height='300' class="mb-8 rounded-md"/>
     </div>)                  
   }  
 

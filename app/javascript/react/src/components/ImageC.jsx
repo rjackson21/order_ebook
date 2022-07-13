@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom'
 const ImageC = () => {                                   
     return (
     <div>      
-        <img src="../images/DSC04408.jpg" width='250' height='300'/>
+        <img src="../images/DSC04408.jpg" width='250' height='300' class="rounded-md"/>
     </div>)                  
   }  
 
