@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Logo from "./Logo"
 import Ipad from "./Ipad"
 import ImageB from "./ImageB"
 import ImageA from './ImageA'
