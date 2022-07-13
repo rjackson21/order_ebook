@@ -5,6 +5,7 @@ import ImageB from "./ImageB"
 import ImageA from './ImageA'
 import ImageC from './ImageC'
 import Buy from './Buy'
+import Blurb from './Blurb'
 
 export default function SalesPage() {
   return (
@@ -24,7 +25,7 @@ export default function SalesPage() {
         <Ipad />
       </div>
       <div class="flex flex-col justify-center w-1/4">
-        <p> Blah text </p>
+        <Blurb />
         <Buy />
       </div>
       
