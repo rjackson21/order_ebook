@@ -7,43 +7,45 @@ import ImageA from './ImageA'
 import ImageC from './ImageC'
 import Buy from './Buy'
 import Blurb from './Blurb'
+import ProductDisplay from './ProductDisplay'
 
 export default function SalesPage() {
   return (
-    <div class="flex flex-col">
-    <div class="flex w-full justify-center">
+    <div className="flex flex-col">
+    <div className="flex w-full justify-center">
       
     </div>
-    <div class="flex w-full">
-      <div class="flex flex-col p-10 w-1/4">
-        <div class="flex">
+    <div className="flex w-full">
+      <div className="flex flex-col p-10 w-1/4">
+        <div className="flex">
           <ImageA />
         </div>
         <div class="flex">
           <ImageB />
         </div>
-        <div class="flex">
+        <div className="flex">
           <ImageC />
         </div>
       </div>
-      <div class="flex flex-col justify-between w-1/2">
-        <div class="flex justify-center">
+      <div className="flex flex-col justify-between w-1/2">
+        <div className="flex justify-center">
           <Logo />
         </div>
-        <div class="flex">
+        <div className="flex">
           <Ipad />
         </div>
         
       </div>
-      <div class="flex flex-col w-full justify-center pr-10 w-1/4">
+      <div className="flex flex-col w-full justify-center pr-10 w-1/4">
         <div>
           <Blurb />
         </div>
-        <div class="mt-6">
+        <div className="mt-6">
           <Buy />
         </div>
       </div>
     </div>
+      <ProductDisplay />
     </div>
   )
 }
