@@ -5,7 +5,6 @@ class StripeCheckoutsController < ApplicationController
     # This is your test secret API key.
     Stripe.api_key = 'sk_test_51IGRs0ANQh5njDlsyqDfWI2XUfzeZBvSRH1T3MeXsiRQM3jsYJrxfhpXMT2xt7IuqTSFFdZdGsWZtACGpcqIfcf000WNIMugmz'
 
-    domain = 'http://localhost:3000'
 
     session = Stripe::Checkout::Session.create({
       line_items: [{
@@ -14,12 +13,10 @@ class StripeCheckoutsController < ApplicationController
         quantity: 1,
       }],
       mode: 'payment',
-      success_url: domain + '?success=true',
-      cancel_url: domain + '?canceled=true',
+      success_url: ENV["EBOOK_ROOT_URL"] + '?success=true',
+      cancel_url: ENV["EBOOK_ROOT_URL"] + '?canceled=true',
     })
 
     render json: { session_url: session.url}
-
-    # redirect_to session.url, allow_other_host: true
   end
 end

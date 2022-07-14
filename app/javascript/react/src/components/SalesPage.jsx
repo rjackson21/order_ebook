@@ -7,7 +7,6 @@ import ImageA from './ImageA'
 import ImageC from './ImageC'
 import Buy from './Buy'
 import Blurb from './Blurb'
-import ProductDisplay from './ProductDisplay'
 
 export default function SalesPage() {
   return (
@@ -45,7 +44,6 @@ export default function SalesPage() {
         </div>
       </div>
     </div>
-      <ProductDisplay />
     </div>
   )
 }
